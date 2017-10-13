@@ -2,8 +2,8 @@
 # Create Nginx Ingress Controller with SSL
 
 Resources:
-https://github.com/kubernetes/ingress-nginx#https
-https://github.com/kubernetes/ingress-nginx/blob/master/examples/tls-termination/nginx/nginx-tls-ingress.yaml
+ * https://github.com/kubernetes/ingress-nginx#https
+ * https://github.com/kubernetes/ingress-nginx/blob/master/examples/tls-termination/nginx/nginx-tls-ingress.yaml
 
 ## Commands
 
@@ -69,7 +69,7 @@ $ curl -kv https://35.196.134.52
 * 	 compression: NULL
 ```
 
-Note the line about "common name: Kubernetes Ingress Controller Fake Certificate (does not match '35.196.134.52')".
+Note the line about `common name: Kubernetes Ingress Controller Fake Certificate (does not match '35.196.134.52')`.
 That shows that we are using the default certs instead of our own.
 
 
