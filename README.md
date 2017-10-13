@@ -9,7 +9,7 @@ Resources:
 
 Create cluster:
 ```
-./setup_cluster_with_ssl.yaml test-ssl
+./setup_cluster_with_ssl.sh test-ssl
 ```
 
 Check that all the parts were made:
